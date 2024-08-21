@@ -1,0 +1,76 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+db.sqlite3
+
+# Environment
+.env
+venv/
+.env/
+venv/
+
+# Static files
+staticfiles/
+media/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Sphinx documentation
+docs/_build/
+
+# Django Admin
+*.pem
+*.p12
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Node modules
+node_modules/
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
