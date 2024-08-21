@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 
 # In-memory storage for tasks
-tasks = [{"id": 1, "title": "Task 1", "description": "Description 1"},]
+tasks = []
 
 # GET endpoint to retrieve all tasks
 def get_tasks(request):
